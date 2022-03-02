@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainFragment">
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/dio_challenge_banc"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/txt_title"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/banc"
+            tools:ignore="ImageContrastCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/btn_deposito"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="4dp"
+                android:background="@color/teal_700"
+                android:text="@string/deposito"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn_saque"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="4dp"
+                android:background="@color/teal_200"
+                android:text="@string/saque"
+                android:textColor="#5E35B1" />
+
+            <Button
+                android:id="@+id/btn_transferencia"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="4dp"
+                android:background="@color/purple_200"
+                android:text="@string/transferencia"
+                android:textColor="#311B92" />
+
+            <Button
+                android:id="@+id/btn_extrato"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/purple_500"
+                android:text="@string/extrato"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</layout>

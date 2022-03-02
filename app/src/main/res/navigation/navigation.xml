@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.suraia.banc.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_depositoFragment"
+            app:destination="@id/depositoFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_saqueFragment"
+            app:destination="@id/saqueFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_transferFragment"
+            app:destination="@id/transferFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_extratoFragment"
+            app:destination="@id/extratoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/depositoFragment"
+        android:name="com.suraia.banc.DepositoFragment"
+        android:label="fragment_deposito"
+        tools:layout="@layout/fragment_deposito" />
+    <fragment
+        android:id="@+id/saqueFragment"
+        android:name="com.suraia.banc.SaqueFragment"
+        android:label="fragment_saque"
+        tools:layout="@layout/fragment_saque" />
+    <fragment
+        android:id="@+id/transferFragment"
+        android:name="com.suraia.banc.TransferFragment"
+        android:label="fragment_transfer"
+        tools:layout="@layout/fragment_transfer" />
+    <fragment
+        android:id="@+id/extratoFragment"
+        android:name="com.suraia.banc.ExtratoFragment"
+        android:label="fragment_e_xtrato"
+        tools:layout="@layout/fragment_e_xtrato" />
+</navigation>

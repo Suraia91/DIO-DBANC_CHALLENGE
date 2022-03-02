@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Banc</string>
+    <string name="dio_challenge_banc">DIO CHALLENGE BANC</string>
+    <string name="deposito">Deposito</string>
+    <string name="saque">Saque</string>
+    <string name="transferencia">Transferencia</string>
+    <string name="extrato">Extrato</string>
+    <string name="todo">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Deposito</string>
+    <string name="insira_o_valor">Insira o valor</string>
+    <string name="string_insira_o_valor">insira o valor</string>
+    <string name="depositar">Depositar</string>
+    <string name="Sacar">Sacar</string>
+    <string name="transfer">transfer</string>
+    <string name="insiraconta">Insira conta</string>
+    <string name="Extrato">Extrato</string>
+    <string name="valor">Valor</string>
+</resources>
